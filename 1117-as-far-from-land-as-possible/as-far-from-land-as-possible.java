@@ -1,6 +1,3 @@
-import java.util.LinkedList;
-import java.util.Queue;
-
 class Solution {
     public int maxDistance(int[][] grid) {
         int n = grid.length;
