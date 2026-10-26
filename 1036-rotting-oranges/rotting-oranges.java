@@ -36,6 +36,10 @@ class Solution {
                 }
             }
         }
-        return freshCount == 0 ? minutes : -1;
+        if (freshCount == 0) {
+    return minutes;
+} else {
+    return -1;
+}
     }
 }
